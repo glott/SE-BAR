@@ -1,0 +1,52 @@
+STEP translation to Solid Edge
+Date: Wednesday,March 04,2020 02:47AM
+Source File: C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD 540 Motor Assy.STEP
+Author: HOME
+Organization: Unknown
+Source System: SolidWorks 2012
+
+Hardware:
+Processor: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+Operating System: Windows 8
+Installed Memory: 15.85 GB
+
+Software Information
+Parasolid Version: 30.0.167
+PSBodyShop Version: 30.0.81
+Step Adapter Version: 3.0.52
+Solid Edge Version: 110.00.00.107 x64
+
+Step Import Options
+Import Faceted Bodies: On
+Import Check Bodies: Off
+Import Curves: On
+Import DoNotSave: On
+Import Multiple Bodies As Single Part File: On
+Import Stitch Surfaces: On
+Import Boolean Solids: On
+Make Base Feature: On
+Simplify Geometry: On
+Import Imprint Curves: On
+Import Drive: C:
+Import Stitch Surfaces: On
+Import Surfaces: On
+Import Output Path: C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP
+Import Enable Default Output Path: On
+Import Path: 
+
+Translating to Parasolid data types...
++Begin Assembly: 1
++Created SE Assembly File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD 540 Motor Assy.asm
+|--+Created SE Part File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Case.par
+|--+Created SE Part File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Terminal.par
+|--+Reusing File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Terminal.par
+|--+Created SE Part File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Rear Bush.par
+|--+Created SE Part File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Front Bush.par
+|--+Created SE Part File C:\Users\Josh\Downloads\rc4wd-840-series-brushed-motor-for-crawler-1.snapshot.2\GrabCAD\STEP\RC4WD Rock Crawler Motor Shaft.par
++Total Parts: 11
++Assemblies: 0
++Solid Bodies: 11
++Sheet Bodies: 0
++End Assembly: 1
+Translation process completed
+Total time required to translate and post process:00 : 00 : 12
