@@ -1,0 +1,16 @@
+[StartTime]
+NoseCone5-Motor Weight and Torque.MFC=4s
+[SolverState]
+NoseCone5-Motor Weight and Torque.MFC=2
+[MainFrame]
+NoseCone5-Motor Weight and Torque.MFC=MCAAAAAAAAAAAAAABAAAAAAAPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPPMECAAAAAHEBAAAAAELDAAAAAKBCAAAAA
+[ShowMin]
+NoseCone5-Motor Weight and Torque.MFC=No
+[SolverType]
+NoseCone5-Motor Weight and Torque.MFC=Linear Analysis
+[StudyType]
+NoseCone5-Motor Weight and Torque.MFC=0
+[StudyName]
+NoseCone5-Motor Weight and Torque.MFC=Motor Weight and Torque
+[Solver]
+NoseCone5-Motor Weight and Torque.MFC=Iterative
