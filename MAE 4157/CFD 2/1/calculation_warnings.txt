@@ -1,0 +1,12 @@
+2020-Dec-08 18:28:03
+Computer name:	CANADA
+Number of cores used in calculation:	4
+Configuration name:	Default
+Project name:	Nozzle_H
+
+Warnings on last iteration: 
+1. Supersonic flow is detected within a considerable number of cells :
+	Use of manual stopping criteria is recommended.
+2. A vortex crosses the pressure opening :
+	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=3.50859
+	Boundary Condition : Environment Pressure 2 ; Inlet flow/outlet flow=3.26278

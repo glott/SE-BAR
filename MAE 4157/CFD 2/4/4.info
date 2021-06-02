@@ -1,0 +1,77 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 3.0. Build: 4921
+                Computer name:   CANADA
+                User name:   Josh
+                Processors:   Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz
+                Memory:   16336 MB / 9793 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2020 SP3.0
+                CPU speed:   3501 MHz
+
+    General Info
+                Model:   Nozzle.SLDPRT
+                Project name:   Nozzle_H_Mesh
+                Project path:   C:\Users\Josh\Documents\CAD\MAE 4157\CFD 2\4
+                Units system:   SI (m-kg-s)
+                Analysis type:   Internal
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.010 m
+                X max:   0.084 m
+                Y min:   -0.034 m
+                Y max:   0.034 m
+                Z min:   0.004 m
+                Z max:   0.005 m
+                X size:   0.094 m
+                Y size:   0.068 m
+                Z size:   5.000e-04 m
+
+    Goals
+
+        Point Goals
+
+            PG Static Pressure 1
+                Type:   Point Goal
+                Goal type:   Static Pressure
+                Coordinate system:   Global coordinate system
+                X:   0.022 m
+                Y:   -0.003 m
+                Z:   0.005 m
+                Criteria:   1.00 Pa
+                Use in convergence :   On
+
+    Goals
+                
+                Name                   	Unit   	Value      	Progress   	Criteria     	Delta        	Use in convergence 
+                PG Static Pressure 1   	Pa     	97093.32   	100        	3345.43755   	217.724004   	On                 
+
+    General Info
+                Iterations:   0
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   20:06:33 , Nov 24
+                Mesh generation normally finished	0:   20:06:34 , Nov 24
+                Preparing data for calculation	0:   20:06:35 , Nov 24
+                Calculation started	0:   20:06:40 , Nov 24
+                Calculation has converged since the following criteria are satisfied:	681:   20:09:24 , Nov 24
+                    Max. travel is reached	681:   
+                Calculation finished	681:   20:09:25 , Nov 24

@@ -1,0 +1,7 @@
+2020-Oct-29 22:42:13
+Computer name:	ROSWELL
+Number of cores used in calculation:	8
+Configuration name:	Default
+Project name:	2415_06
+
+Warnings on last iteration: 

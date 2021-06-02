@@ -1,0 +1,126 @@
+
+    System Info
+                Status:   Solver is finished.
+                Product:   Flow Simulation 2020 3.0. Build: 4921
+                Computer name:   ROSWELL
+                User name:   Josh
+                Processors:   Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz
+                Memory:   16235 MB / 9448 MB
+                Operating system:   Windows 10 (or higher) (Version 10.0.18363)
+                CAD version:   SOLIDWORKS 2020 SP3.0
+                CPU speed:   2801 MHz
+
+    General Info
+                Model:   2415_06.SLDPRT
+                Project name:   2415_06
+                Project path:   C:\Users\Josh\Documents\Engineering\Aero Lab\CFD 1B\1
+                Units system:   SI (m-kg-s)
+                Analysis type:   External (exclude internal spaces)
+                Exclude cavities without flow conditions :   On
+                Coordinate system:   Global coordinate system
+                Reference axis:   X
+
+    Physical Features
+                Heat conduction in solids:   Off
+                Time dependent:   Off
+                Gravitational effects:   Off
+                Flow type:   Laminar and turbulent
+                High Mach number flow:   Off
+                Humidity:   Off
+                Free surface:   Off
+                Default roughness:   0 micrometer
+                Default wall conditions:   Adiabatic wall
+
+    Computational Domain
+
+        Size
+                X min:   -0.600 m
+                X max:   1.000 m
+                Y min:   -0.800 m
+                Y max:   0.800 m
+                Z min:   -1.000e-04 m
+                Z max:   0 m
+                X size:   1.600 m
+                Y size:   1.600 m
+                Z size:   1.000e-04 m
+
+    Calculation Mesh
+
+        Basic Mesh Dimensions
+                Number of cells in X:   84
+                Number of cells in Y:   84
+                Number of cells in Z:   1
+
+        Number Of Cells
+                Cells:   126994
+                Fluid cells:   126994
+                Irregular cells:   0
+                Trimmed cells:   0
+                Maximum refinement level:   7
+
+    Goals
+
+        Global Goals
+
+            GG Force (X)
+                Type:   Global Goal
+                Goal type:   Force (X)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Force (Y)
+                Type:   Global Goal
+                Goal type:   Force (Y)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+            GG Torque (Z)
+                Type:   Global Goal
+                Goal type:   Torque (Z)
+                Coordinate system:   Global coordinate system
+                Use in convergence :   On
+
+        Equation Goals
+
+            C_L
+                Type:   Equation Goal
+                Formula:   2 * GG Force (Y) / (1.225 * 40^2 * .0001 * .127)
+                Dimensionality:   No units
+                Use in convergence :   On
+
+            C_D
+                Type:   Equation Goal
+                Formula:   2 * GG Force (X) / (1.225 * 40^2 * .0001 * .127)
+                Dimensionality:   No units
+                Use in convergence :   On
+
+            C_M
+                Type:   Equation Goal
+                Formula:   2 * GG Torque (Z) / (1.225 * 40^2 * .0001 * .127^2)
+                Dimensionality:   No units
+                Use in convergence :   On
+
+    Goals
+                
+                Name            	Unit   	Value       	Progress   	Criteria         	Delta            	Use in convergence 
+                GG Force (X)    	N      	1.984e-04   	100        	4.73553616e-05   	4.77969665e-07   	On                 
+                GG Force (Y)    	N      	0.002       	100        	4.4166343e-05    	3.82331983e-05   	On                 
+                GG Torque (Z)   	N*m    	6.350e-05   	100        	9.19964823e-07   	8.40329658e-07   	On                 
+                C_M             	       	0.0401741   	100        	0.000582019725   	0.000531638194   	On                 
+                C_D             	       	0.0159442   	100        	0.00380486595    	3.84034762e-05   	On                 
+                C_L             	       	0.1700955   	100        	0.00354863756    	0.00307192659    	On                 
+
+    General Info
+                Run at:   ROSWELL
+                Number of cores:   8
+                Iterations:   160
+                CPU time:   0 s
+
+        Log
+                Mesh generation started	0:   22:38:09 , Oct 29
+                Mesh generation normally finished	0:   22:38:16 , Oct 29
+                Preparing data for calculation	0:   22:38:16 , Oct 29
+                Calculation started	0:   22:39:05 , Oct 29
+                Calculation has converged since the following criteria are satisfied:	160:   22:42:13 , Oct 29
+                    Goals are converged	160:   
+                Calculation finished	160:   22:42:15 , Oct 29

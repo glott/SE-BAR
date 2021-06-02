@@ -1,0 +1,9 @@
+2020-Dec-08 18:52:38
+Computer name:	CANADA
+Number of cores used in calculation:	4
+Configuration name:	Default
+Project name:	Nozzle_L
+
+Warnings on last iteration: 
+1. Supersonic flow is detected within a considerable number of cells :
+	Use of manual stopping criteria is recommended.

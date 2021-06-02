@@ -1,0 +1,29 @@
+﻿absolute path:C:\Users\Josh\Documents\Engineering\MAE 4157\CFD 2\1
+init:1
+run_capture:1
+run_solver:1
+new_calc:1
+close_monitor:0
+run_convert:0
+isOK:1
+ForceNewCalc:0
+run_capture_prestate:1
+StartFldName:C:\Users\Josh\Documents\Engineering\MAE 4157\CFD 2\1\1.fld
+NewCalcStartCptName:
+TransTimeMoments:
+TransFldNames:
+CurSelTranFld:0
+Trans:0
+UsePrevRes:0
+ForcetoRunCPT:0
+ComputerName:
+port:61811
+ProcessResults:1
+LoadLastResult:0
+ProcessorsToUse:0
+LoadBaseFLDFile:0
+BaseFLDFile:
+id:{8771DCED-8823-4F1E-A0BE-C8B4864BDC2E}
+calculation_state:15
+ForceContinue:0
+SolverProcessId:24384
